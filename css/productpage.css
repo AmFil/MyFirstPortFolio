@@ -1,0 +1,35 @@
+ body {
+    background-color: #eeeeee;
+ }
+
+ .navbar-background{
+    background-color: #eeeeee;
+}
+
+.min-height {
+   min-height: 50vh;
+}
+
+.btn:hover {
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+li:hover {
+   opacity: 0.4;
+}
+
+body{
+   animation: fadeInAnimation ease 1s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+   0% {
+       opacity: 0.2;
+   }
+   100% {
+       opacity: 1;
+    }
+}
+

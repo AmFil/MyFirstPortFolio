@@ -1,0 +1,69 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-background{
+    background-color: #BE3144;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.full-height{
+    min-height: 100vh;
+}
+
+.partial-height{
+    min-height: 80vh;
+}
+
+.background-one{
+    background-color: #3A3D40;
+}
+
+.background-two{
+    background-color: #45567D; 
+}
+
+.row{
+    padding: 0px; 
+    margin: 0px
+}
+
+.top-margin-large{
+    margin-top: 100px;
+}
+
+.card-background{
+    background-color: #3A3D40;
+}
+
+.margin-top-viewport-height-sm{
+    margin-top: 15vh;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid black; 
+}
+
+@media only screen and (min-width: 768px){
+
+    .card-image {
+        width: 15vw;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .card-width {
+        width: 15.15vw;
+    }
+
+}
+
+html, body { 
+    overflow-x: hidden; 
+}
+
+
